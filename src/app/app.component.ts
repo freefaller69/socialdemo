@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  users: Array<any>;
+  // users: Array<any>;
 
-  constructor(private _dataService: DataService) {
+  // constructor(private _dataService: DataService) {
 
-    this._dataService.getUsers()
-      .subscribe(res => this.users = res);
+  //   this._dataService.getUsers()
+  //     .subscribe(res => this.users = res);
 
-  }
+  // }
 }
